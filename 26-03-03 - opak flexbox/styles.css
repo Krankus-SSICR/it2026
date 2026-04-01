@@ -1,0 +1,17 @@
+.parent{
+    width: 67%;
+    height: auto;
+    background: aquamarine;
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap-reverse;
+}
+.child{
+    width: 333px;
+    height: 112px;
+    background: chocolate;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

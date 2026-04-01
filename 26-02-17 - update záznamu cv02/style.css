@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Tahoma;
+}
+table {
+    width: 80%;
+}
+th {
+    background: aquamarine;
+    padding: 10px;
+}
+td {
+    padding: 5px;
+    border-bottom: 2px solid papayawhip;
+}
+.stesti {
+    padding: 2em;
+    border: 3px solid green;
+    color: lightgreen;
+}
+.smula {
+    padding: 2em;
+    border: 3px solid red;
+    color: lightcoral;
+}
+form div {
+    margin: 1em;
+}

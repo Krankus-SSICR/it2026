@@ -1,0 +1,7 @@
+<?php include "header.php"; ?>
+
+    <h2>Masáže</h2>
+    <p>Dopřejte si zasloužený odpočinek a nechte starosti všedních dnů rozplynout v našem hotelovém wellness. V Hotelu Měsíc věříme v sílu doteku, a proto jsme pro vás připravili pečlivě sestavenou nabídku masáží, které dokonale doplní váš pobyt. Od klasické relaxační masáže, která uvolní napětí a zklidní mysl, až po hloubkové terapeutické techniky zaměřené na zmírnění chronických bolestí a obnovu svalové pružnosti. Každá masáž probíhá v klidném a intimním prostředí, kde se snoubí tiché melodie s vůní éterických olejů. Rezervujte si svůj čas pro sebe a zažijte pocit naprostého uvolnění a harmonie.</p>
+    <p>Pro ty, kteří hledají nevšední zážitek, doporučujeme naši signature masáž "Měsíční záře", která kombinuje horké kameny s jemnou aromaterapií pro maximální regeneraci. Ať už jste u nás na služební cestě, nebo trávíte romantický víkend, masáž je ideální cestou k obnovení energie a zlepšení nálady. Naši zkušení a certifikovaní terapeuti přistupují ke každému klientovi individuálně, aby zajistili, že masáž bude přesně odpovídat vašim potřebám a přáním. Pro rezervaci termínu a výběr té pravé masáže pro vás prosím kontaktujte hotelovou recepci. Těšíme se na vás v oáze klidu Hotelu Měsíc!</p>
+</body>
+</html>

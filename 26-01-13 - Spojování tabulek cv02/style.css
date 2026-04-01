@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Tahoma;
+}
+table {
+    width: 67%;
+}
+th {
+    background: aquamarine;
+}
+th, td {
+    padding: 0.5em;
+}
+td {
+    border-bottom: 2px solid black;
+}
+input[type=submit] {
+    border: none;
+    width: 100%;
+    padding: 0.5em;
+    background: aqua;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+

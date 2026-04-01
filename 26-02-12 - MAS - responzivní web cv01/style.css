@@ -1,0 +1,74 @@
+@property --primary-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #8E1537;
+}
+@property --secondary-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #cf63ce;
+}
+@property --text-light-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: beige;
+}
+@property --text-dark-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #282828;
+}
+body {
+    margin: 0;
+    font-family: Tahoma;
+    color: var(--text-dark-color);
+}
+.logo {
+    width: 13%;
+    margin: 2em auto;
+}
+nav ul {
+    margin: 0;
+    padding: 2em 10em 2em 0;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    list-style: none;
+}
+nav a {
+    color: var(--text-light-color);
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: large;
+}
+nav a:hover {
+    opacity: 1;
+}
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    margin: 2em 0;
+    border-left: 0.5em solid var(--secondary-color);
+    font-size: 2.4em;
+    padding: 0.6em 0 0.6em 1em;
+}
+.foto {
+    width: 29%;
+    border: var(--primary-color) 0.2em solid;
+    padding: 1em;
+    border-radius: 15px;
+}
+.foto img {
+    width: 100%;
+}
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}

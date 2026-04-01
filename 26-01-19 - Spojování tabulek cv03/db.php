@@ -1,0 +1,3 @@
+<?php 
+   $conn = new mysqli('localhost', 'krankus', 'databaze456', 'it2026');
+?>

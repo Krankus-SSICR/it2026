@@ -1,0 +1,46 @@
+
+-- Vložení 10 kategorií
+INSERT INTO kategorie (nazev) VALUES
+('Elektronika'),
+('Knihy'),
+('Oblečení'),
+('Sportovní vybavení'),
+('Hračky'),
+('Kosmetika'),
+('Potraviny'),
+('Nábytek'),
+('Zahrada'),
+('Auto-moto');
+
+-- Vložení 30 produktů (každý s odkazem na kategorii)
+INSERT INTO produkty (nazev, kategorie_produktu) VALUES
+('Smartphone', 1),
+('Notebook', 1),
+('Sluchátka', 1),
+('Román', 2),
+('Učebnice matematiky', 2),
+('Komiks', 2),
+('Tričko', 3),
+('Džíny', 3),
+('Bunda', 3),
+('Fotbalový míč', 4),
+('Tenisová raketa', 4),
+('Činky', 4),
+('Stavebnice LEGO', 5),
+('Panenka', 5),
+('Autíčko na dálkové ovládání', 5),
+('Šampon', 6),
+('Parfém', 6),
+('Krém na ruce', 6),
+('Chléb', 7),
+('Mléko', 7),
+('Těstoviny', 7),
+('Psací stůl', 8),
+('Židle', 8),
+('Skříň', 8),
+('Zahradní hadice', 9),
+('Květináč', 9),
+('Gril', 9),
+('Autobaterie', 10),
+('Motorový olej', 10),
+('Autokoberec', 10);
