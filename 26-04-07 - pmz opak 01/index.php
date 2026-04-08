@@ -11,7 +11,7 @@ require('db.php');
 <body>
     <h2>Výpis dat</h2>
     <?php if (isset($_GET['pridano']) && $_GET['pridano'] == 1):?>
-        <p style="color: green;">Záznam byl úspěšně přidán.</p>
+        <p style="color: greenyellow;">Záznam byl úspěšně přidán.</p>
     <?php endif;?>
     <a href="pridat.php">Přidat film</a>
     <table>
