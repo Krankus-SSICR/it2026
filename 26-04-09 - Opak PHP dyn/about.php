@@ -39,7 +39,7 @@ switch ($url) {
 <body>
     <nav>
         <ul>
-            <li><a href="index.php" class="<?php if ($url == "index.php" || $url = "") {echo "aktivni";}?>">Domů</a></li>
+            <li><a href="index.php" class="<?php if ($url == "index.php" || $url == "") {echo "aktivni";}?>">Domů</a></li>
             <li><a href="about.php" class="<?php if ($url == "about.php") {echo "aktivni";}?>">O nás</a></li>
             <li><a href="kontakt.php" class="<?php if ($url == "kontakt.php") {echo "aktivni";}?>">Kontakt</a></li>
         </ul>
