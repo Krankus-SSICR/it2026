@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    height: 6em;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2em;
+}
+nav a {
+    color: navy;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-decoration: none;
+}
