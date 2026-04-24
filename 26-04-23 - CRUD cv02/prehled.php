@@ -8,6 +8,10 @@
 </head>
 <body>
     <h2>Sklad kávy</h2>
+    <?php
+    $vyber = "SELECT * FROM kava";
+    $vyber = $conn->query($vyber);
+    ?>
     <table>
         <tr>
             <th>Název</th>
@@ -15,6 +19,14 @@
             <th>Smazat</th>
             <th>Upravit</th>
         </tr>
+        <?php while($radek = $vyber->fetch_assoc()):?>
+            <tr>
+                <td><?= $radek['nazev'];?></td>
+                <td><?= $radek['typ'];?></td>
+                <td><a href="upravit.php?id=<?= $radek['id'];?>">Upravit záznam</a></td>
+                <td><a href="smazat.php?id=<?= $radek['id'];?>">Smazat záznam</a></td>
+            </tr>
+        <?php endwhile;?>
     </table>
 </body>
 </html>

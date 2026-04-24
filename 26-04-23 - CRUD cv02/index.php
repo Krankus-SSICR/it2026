@@ -9,6 +9,9 @@
     <?php if(isset($_GET['pridano']) && $_GET['pridano'] == 1):?>
         <p style="color: darkgreen;">Záznam byl úspěšně přidán</p>
     <?php endif;?>
+    <?php if(isset($_GET['upraveno']) && $_GET['upraveno'] == 1):?>
+        <p style="color: darkgreen;">Záznam byl úspěšně upraven</p>
+    <?php endif;?>
     <a href="prehled.php">Přehled skladu</a><br>
     <a href="pridat.php">Přidat novou kávu</a>
 </body>
